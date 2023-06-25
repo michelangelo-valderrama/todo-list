@@ -1,0 +1,46 @@
+
+
+#prompt {
+    /* position: fixed; */
+    width: 90%;
+    padding: 11px 5% 0 5%;
+    display: grid;
+    grid-template-columns: 20px auto 84px;
+}
+
+.symb {
+    color: #1ABAFF;
+    padding-right: 10px;
+    animation: blinker 2s ease-in-out infinite;
+}
+
+@keyframes blinker {
+    50% {
+        opacity: 50%;
+    }
+}
+
+#prompt > .text {
+    font-weight: normal;
+    padding-bottom: 4px;
+    padding-left: 8px;
+    transition: 0.2s;
+    border-bottom: 1px solid #757575;
+}
+
+#prompt > .text:hover {
+    border-bottom: 1px solid #fff;
+    font-style: normal;
+    cursor: text;
+}
+
+#prompt > .text:focus {
+    font-style: normal;
+}
+
+.buttons-container {
+    text-align: right;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 14px;
+}

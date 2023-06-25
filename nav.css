@@ -1,0 +1,37 @@
+
+
+#navbar {
+    display: grid inline;
+    grid-template-columns: 30px auto 70px;
+    margin: 0;
+    padding: 0 5% 15px 5%;
+    width: 90%;
+    border-bottom: 1px solid #757575;
+}
+
+#navbar > .text {
+    padding-left: 15px;
+    padding-right: 5px;
+}
+
+#menu-button:hover:before {
+    content: '[/]';
+}
+
+#menu-button:after {
+    content: '[|]';
+}
+
+#menu-button:hover:after {
+    content: '';
+}
+
+.switch {
+    font-weight: bold;
+    text-align: right;
+}
+
+.switch:hover {
+    cursor: pointer;
+    font-style: oblique;
+}

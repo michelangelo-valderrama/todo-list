@@ -1,0 +1,37 @@
+
+
+#todolist {
+    width: 90%;
+    padding: 30px 5% 0 5%;
+    overflow: scroll;
+}
+
+#todolist > div {
+    display: grid;
+    grid-template-columns: 20px auto;
+}
+
+#todolist > div > p:first-child {
+    color: #757575;
+}
+
+.task {
+    padding-left: 5px;
+    white-space: nowrap;
+    text-overflow: "...";
+    overflow: scroll;
+    scrollbar-width: none;
+}
+
+.task:focus {
+    font-style: oblique;
+}
+
+.task > input:hover {
+    cursor: pointer;
+}
+
+.completed {
+    text-decoration: line-through;
+    color: #757575;
+}
