@@ -1,3 +1,9 @@
+.lightMode {
+    -webkit-filter: invert(100%);
+    filter: invert(100%);
+    background-color: #fefefe;
+}
+
 .no-select {
     user-select: none; /* Standard syntax */
 }
@@ -11,6 +17,10 @@
     text-overflow: "...";
     overflow: scroll;
     scrollbar-width: none;
+}
+
+.ellipsis::-webkit-scrollbar {
+    display: none;
 }
 
 .gray {

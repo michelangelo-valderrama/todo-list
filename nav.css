@@ -1,12 +1,15 @@
 
 
 #navbar {
-    display: grid inline;
+    display: grid;
     grid-template-columns: 30px auto 70px;
     margin: 0;
-    padding: 0 5% 15px 5%;
+    padding: 20px 5% 15px 5%;
     width: 90%;
     border-bottom: 1px solid #757575;
+    /* background: #000; */
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
 }
 
 #navbar > .text {
@@ -26,12 +29,17 @@
     content: '';
 }
 
-.switch {
+#switch-button {
     font-weight: bold;
     text-align: right;
 }
 
-.switch:hover {
+#switch-button:hover {
     cursor: pointer;
     font-style: oblique;
+}
+
+#switch-button:active {
+    font-weight: normal;
+    font-style: normal;
 }
