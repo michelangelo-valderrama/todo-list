@@ -1,0 +1,64 @@
+.lightMode {
+  -webkit-filter: invert(100%);
+  filter: invert(100%);
+  background-color: #fefefe;
+}
+
+.no-select {
+  user-select: none; /* Standard syntax */
+}
+
+.no-hov:hover {
+  cursor: default;
+}
+
+.ellipsis {
+  white-space: nowrap;
+  text-overflow: '...';
+  overflow: scroll;
+  scrollbar-width: none;
+}
+
+.ellipsis::-webkit-scrollbar {
+  display: none;
+}
+
+.gray {
+  color: #757575;
+}
+
+.add-color {
+  color: #36cc9a;
+}
+
+.direct {
+  color: #c3ccfc;
+}
+
+.dir {
+  color: #7284eb;
+}
+
+.red {
+  color: #ec4f47;
+}
+
+.pink {
+  color: #fd9f9a;
+}
+
+.orange {
+  color: #ffb039;
+}
+
+.yellow {
+  color: #e2cb00;
+}
+
+.blue {
+  color: #00cfad;
+}
+
+.green {
+  color: #97c500;
+}
